@@ -12,7 +12,6 @@
       <change beforePath="$PROJECT_DIR$/../my-website/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../my-website/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../my-website/src/AppBundle/AppBundle.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../my-website/src/AppBundle/Controller/DefaultController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../resibo.ph" beforeDir="false" afterPath="$PROJECT_DIR$/../resibo.ph" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../reyin" beforeDir="false" afterPath="$PROJECT_DIR$/../reyin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sholomon" beforeDir="false" afterPath="$PROJECT_DIR$/../sholomon" afterDir="false" />
@@ -148,16 +147,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558110696405</updated>
-      <workItem from="1558110697751" duration="709000" />
+      <workItem from="1558110697751" duration="1016000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="709000" />
+    <option name="totallyTimeSpent" value="1016000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
@@ -184,6 +182,9 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
