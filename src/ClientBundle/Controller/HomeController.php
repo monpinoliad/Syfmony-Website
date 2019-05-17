@@ -8,6 +8,6 @@ class HomeController extends Controller
 {
     public function indexAction()
     {
-        return $this->render('@Client/Base/index.html.twig');
+        return $this->render('@Client/Pages/Home/index.html.twig');
     }
 }

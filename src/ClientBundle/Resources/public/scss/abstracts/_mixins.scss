@@ -1,0 +1,12 @@
+@mixin box-sizing() {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@mixin user-select($selection) {
+  -webkit-user-select: $selection;
+  -moz-user-select: $selection;
+  -ms-user-select: $selection;
+  user-select: $selection;
+}

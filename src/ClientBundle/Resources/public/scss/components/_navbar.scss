@@ -1,0 +1,39 @@
+.navbar {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 30px;
+
+  &__title {
+    width: auto;
+    font-size: 2rem;
+    float: left;
+    @include user-select(none);
+  }
+
+  &__navigation {
+    position: absolute;
+    width: 500px;
+    height: auto;
+    list-style-type: none;
+    list-style-image: url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7); //For IE
+    padding: 0;
+    margin: 0;
+    top: 30px;
+    right: 30px;
+
+    &--list {
+      width: 100px;
+      padding: 10px 20px;
+      margin: 0 10px;
+      float: left;
+      cursor: pointer;
+
+      &:hover {
+        background-color: $mine-shaft;
+        color: $white;
+      }
+    }
+  }
+}

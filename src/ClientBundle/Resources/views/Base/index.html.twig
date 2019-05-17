@@ -9,6 +9,11 @@
     {% endblock metatags %}
     <title>Sholomon Pinoliad - {% block title %}{% endblock title %}</title>
     {% block stylesheets %}
+        {% stylesheets filter="scssphp" output="css/main.css"
+            "bundles/client/scss/main.scss"
+        %}
+            <link rel="stylesheet" href="{{ asset_url }}" />
+        {% endstylesheets %}
     {% endblock stylesheets %}
 </head>
 <body>
