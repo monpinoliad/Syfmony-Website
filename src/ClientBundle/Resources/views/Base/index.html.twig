@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    {% block metatags %}
+    {% endblock metatags %}
+    <title>Sholomon Pinoliad - {% block title %}{% endblock title %}</title>
+    {% block stylesheets %}
+    {% endblock stylesheets %}
+</head>
+<body>
+    {% include '@Client/Components/navbar.html.twig' %}
+    {% block body %}
+    {% endblock body %}
+    {% block javascripts %}
+    {% endblock javascripts %}
+</body>
+</html>
