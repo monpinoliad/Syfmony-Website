@@ -48,3 +48,24 @@
   -moz-box-shadow: $h $v $blur $spread $color;
   box-shadow: $h $v $blur $spread $color;
 }
+
+@mixin border-radius($size) {
+  -webkit-border-radius: $size;
+  -moz-border-radius: $size;
+  border-radius: $size;
+}
+
+@mixin linear-gradient($direction, $first, $second) {
+  background-image: -webkit-linear-gradient($direction, $first, $second);
+  background-image: -moz-linear-gradient($direction, $first, $second);
+  background-image: -ms-linear-gradient($direction, $first, $second);
+  background-image: -o-linear-gradient($direction, $first, $second);
+  background-image: linear-gradient($direction, $first, $second);
+}
+
+@mixin user-select($selection) {
+  -webkit-user-select: $selection;
+  -moz-user-select: $selection;
+  -ms-user-select: $selection;
+  user-select: $selection;
+}

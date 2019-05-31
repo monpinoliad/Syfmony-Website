@@ -227,3 +227,82 @@
     }
   }
 }
+
+.contact {
+  width: 100%;
+  height: auto;
+    min-height: 100vh;
+  padding: 30pt;
+
+
+  &__title {
+    width: 100%;
+    height: auto;
+    font-weight: 700;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 50pt 0;
+  }
+
+  & > p {
+    text-align: center;
+  }
+
+  &__container {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    @include display-flex();
+
+    &--content {
+      background-position: top center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      max-width: 250pt;
+      min-width: 250pt;
+      height: 100pt;
+      margin: 20pt;
+      flex: 1 0 31%;
+      @include border-radius(10pt);
+
+      &__bg {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+        @include linear-gradient(to top left, $eastern-blue, $sky-blue);
+        @include border-radius(10pt);
+      }
+
+      &__title {
+        position: absolute;
+        width: 100%;
+        font-weight: 700;
+        font-size: 1.5rem;
+        text-align: center;
+        text-transform: uppercase;
+        text-shadow: 2pt 2pt 0 $mine-shaft;
+        color: $white;
+        line-height: 100pt;
+        z-index: 999;
+        @include user-select(none);
+
+        & > .svg {
+          background-color: $white;
+          width: 30pt;
+          height: 30pt;
+          margin: 0 0 -7.5pt 0;
+          border: none;
+          @include border-radius(50%);
+        }
+      }
+    }
+  }
+}
