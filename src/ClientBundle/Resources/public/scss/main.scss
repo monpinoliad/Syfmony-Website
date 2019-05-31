@@ -8,7 +8,11 @@
   'base/base';
 
 @import
-  'components/navbar';
+  'components/navbar',
+  'components/header';
+
+@import
+  'layouts/client';
 
 @import
   'vendors/fonts';
