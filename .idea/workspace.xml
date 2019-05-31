@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b194842b-d7d7-45bd-b18c-e3ba05c01143" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/ClientBundle/Resources/public/scss/components/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClientBundle/Resources/public/scss/components/_navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClientBundle/Controller/BlogController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClientBundle/Resources/config/routing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClientBundle/Resources/config/routing.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ClientBundle/Resources/public/scss/layouts/_client.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClientBundle/Resources/public/scss/layouts/_client.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClientBundle/Resources/views/Components/navbar.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClientBundle/Resources/views/Components/navbar.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClientBundle/Resources/views/Pages/Blog/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClientBundle/Resources/views/Pages/Home/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClientBundle/Resources/views/Pages/Home/index.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,11 +21,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ClientBundle/Resources/public/scss/layouts/_client.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="337" column="18" selection-start-line="337" selection-start-column="18" selection-end-line="337" selection-end-column="18" />
+            <state relative-caret-position="512">
+              <caret line="270" column="27" selection-start-line="270" selection-start-column="27" selection-end-line="270" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ClientBundle/Resources/views/Pages/Home/index.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1430">
+              <caret line="287" column="43" selection-start-line="287" selection-start-column="43" selection-end-line="287" selection-end-column="43" />
+              <folding>
+                <element signature="e#22968#23001#0#HTML" expanded="true" />
+                <element signature="e#23223#23256#0#HTML" expanded="true" />
+                <element signature="e#23508#23556#0#HTML" expanded="true" />
+                <element signature="e#23778#23826#0#HTML" expanded="true" />
+                <element signature="e#24189#24268#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ClientBundle/Resources/views/Components/navbar.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="81" selection-start-line="11" selection-start-column="81" selection-end-line="11" selection-end-column="81" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ClientBundle/Resources/config/routing.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -54,7 +93,6 @@
         <option value="$PROJECT_DIR$/composer.lock" />
         <option value="$PROJECT_DIR$/src/ClientBundle/Resources/public/scss/vendors/_fonts.scss" />
         <option value="$PROJECT_DIR$/src/ClientBundle/Resources/public/scss/base/_base.scss" />
-        <option value="$PROJECT_DIR$/src/ClientBundle/Resources/views/Pages/Home/index.html.twig" />
         <option value="$PROJECT_DIR$/src/ClientBundle/Resources/public/scss/main.scss" />
         <option value="$PROJECT_DIR$/src/ClientBundle/Resources/views/Base/index.html.twig" />
         <option value="$PROJECT_DIR$/src/ClientBundle/Resources/public/scss/components/_footer.scss" />
@@ -63,13 +101,14 @@
         <option value="$PROJECT_DIR$/src/ClientBundle/Resources/views/Pages/Blog/index.html.twig" />
         <option value="$PROJECT_DIR$/src/ClientBundle/Resources/views/Contact/index.html.twig" />
         <option value="$PROJECT_DIR$/src/ClientBundle/Controller/ContactController.php" />
-        <option value="$PROJECT_DIR$/src/ClientBundle/Resources/config/routing.yml" />
-        <option value="$PROJECT_DIR$/src/ClientBundle/Resources/views/Components/navbar.html.twig" />
         <option value="$PROJECT_DIR$/src/ClientBundle/Resources/public/scss/abstracts/_colors.scss" />
         <option value="$PROJECT_DIR$/src/ClientBundle/Resources/public/scss/abstracts/_mixins.scss" />
         <option value="$PROJECT_DIR$/src/ClientBundle/Resources/views/Pages/Contact/index.html.twig" />
         <option value="$PROJECT_DIR$/src/ClientBundle/Resources/public/scss/components/_navbar.scss" />
+        <option value="$PROJECT_DIR$/src/ClientBundle/Resources/config/routing.yml" />
         <option value="$PROJECT_DIR$/src/ClientBundle/Resources/public/scss/layouts/_client.scss" />
+        <option value="$PROJECT_DIR$/src/ClientBundle/Resources/views/Pages/Home/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/ClientBundle/Resources/views/Components/navbar.html.twig" />
       </list>
     </option>
   </component>
@@ -137,6 +176,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -328,13 +368,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ClientBundle/Resources/public/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ClientBundle/Resources/public/resume" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -343,12 +382,13 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\personal-website\src\ClientBundle\Resources\views\Pages" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\personal-website\src\ClientBundle\Resources\public\resume" />
       <recent name="C:\xampp\htdocs\personal-website\src\ClientBundle\Resources\public\images" />
       <recent name="C:\xampp\htdocs\personal-website\vendor\symfony" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\personal-website\src\ClientBundle\Resources\views\Pages" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -379,18 +419,20 @@
       <workItem from="1558246940649" duration="820000" />
       <workItem from="1558251095766" duration="394000" />
       <workItem from="1558368303763" duration="791000" />
-      <workItem from="1559276434910" duration="14627000" />
+      <workItem from="1559276434910" duration="15218000" />
+      <workItem from="1559303787321" duration="835000" />
+      <workItem from="1559311962428" duration="2604000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35027000" />
+    <option name="totallyTimeSpent" value="39057000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2246596" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23146747" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -549,9 +591,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
-          <folding>
-            <element signature="e#213#249#1#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -566,13 +605,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
           <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ClientBundle/Resources/views/Pages/Home/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="2" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -603,25 +635,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ClientBundle/Resources/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ClientBundle/Resources/public/scss/abstracts/_colors.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
           <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ClientBundle/Resources/views/Components/navbar.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -670,8 +688,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ClientBundle/Resources/public/scss/layouts/_client.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="337" column="18" selection-start-line="337" selection-start-column="18" selection-end-line="337" selection-end-column="18" />
+        <state relative-caret-position="512">
+          <caret line="270" column="27" selection-start-line="270" selection-start-column="27" selection-end-line="270" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ClientBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ClientBundle/Resources/views/Pages/Home/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1430">
+          <caret line="287" column="43" selection-start-line="287" selection-start-column="43" selection-end-line="287" selection-end-column="43" />
+          <folding>
+            <element signature="e#22968#23001#0#HTML" expanded="true" />
+            <element signature="e#23223#23256#0#HTML" expanded="true" />
+            <element signature="e#23508#23556#0#HTML" expanded="true" />
+            <element signature="e#23778#23826#0#HTML" expanded="true" />
+            <element signature="e#24189#24268#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ClientBundle/Resources/views/Components/navbar.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="81" selection-start-line="11" selection-start-column="81" selection-end-line="11" selection-end-column="81" />
         </state>
       </provider>
     </entry>

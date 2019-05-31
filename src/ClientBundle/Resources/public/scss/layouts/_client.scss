@@ -209,7 +209,7 @@
     }
 
     &--item {
-      flex: 1 0 22%;
+      flex: 1 0 31%;
       padding: 10pt;
       margin: 10pt;
       @include transition(250ms);
@@ -227,19 +227,48 @@
       }
 
       &__image {
-        background-color: $silver;
         background-position: center center;
         background-repeat: no-repeat;
         background-size: contain;
         width: 100%;
-        height: 150pt;
+        height: 200pt;
         float: left;
       }
 
       &__title {
         width: 100%;
         text-align: center;
+        font-weight: 700;
         padding: 10pt 0;
+        float: left;
+      }
+
+      &__tags {
+        width: 100%;
+        padding: 10pt 20pt;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        float: left;
+        @include display-flex();
+
+        &--item {
+          display: inline-block;
+          background-color: $mine-shaft;
+          color: $white;
+          font-size: 0.85rem;
+          padding: 5pt 10pt;
+          margin: 0 5pt;
+          vertical-align: baseline;
+          float: left;
+          @include user-select(none);
+          @include border-radius(10pt);
+        }
+      }
+
+      p {
+        width: 100%;
+        text-align: center;
         float: left;
       }
     }
