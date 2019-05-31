@@ -1,3 +1,7 @@
 client_homepage:
     path:     /
     defaults: { _controller: ClientBundle:Home:index }
+
+client_blog:
+    path:     /blog
+    defaults: { _controller: ClientBundle:Blog:index }
