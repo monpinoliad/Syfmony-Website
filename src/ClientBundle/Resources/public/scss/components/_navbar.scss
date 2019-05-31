@@ -1,0 +1,78 @@
+.navbar {
+  background-color: $white;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 30px;
+
+  &__title {
+    width: auto;
+    font-size: 2rem;
+    float: left;
+    @include user-select(none);
+
+    @media only screen and (max-width: 576pt) {
+      width: auto;
+      margin-left: 50%;
+      float: left;
+      @include transform-translate(-50%, 0);
+    }
+
+    &--first {
+      float: left;
+      @include rotate(80deg);
+      @include transition(250ms);
+      &:hover {
+        @include rotate(0deg);
+        @include transition(250ms);
+      }
+    }
+
+    &--second {
+      float: left
+    }
+  }
+
+  &__navigation {
+    position: absolute;
+    width: 400pt;
+    height: auto;
+    list-style-type: none;
+    list-style-image: url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7); //For IE
+    padding: 0;
+    margin: 0;
+    top: 30px;
+    right: 30px;
+    
+    @media only screen and (max-width: 576pt) {
+      position: relative;
+      width: 100%;
+      right: 0;
+      float: left;
+    }
+
+    & > a:focus {
+      outline: none;
+    }
+
+    &--list {
+      padding: 10px 20px;
+      margin: 0 10px;
+      text-align: center;
+      float: left;
+      cursor: pointer;
+
+      @media only screen and (max-width: 576pt) {
+        width: 100%;
+        margin: 0;
+        float: left;
+      }
+
+      &:hover {
+        background-color: $mine-shaft;
+        color: $white;
+      }
+    }
+  }
+}

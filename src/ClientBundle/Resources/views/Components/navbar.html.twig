@@ -1,0 +1,14 @@
+<nav class="navbar">
+    <a href="{{ path('client_homepage') }}">
+        <div class="navbar__title">
+            <div class="navbar__title--first">S</div>
+            <div class="navbar__title--second">P</div>
+        </div>
+    </a>
+
+    <ul class="navbar__navigation">
+        <a href="{{ path('client_homepage') }}"><li class="navbar__navigation--list">Home</li></a>
+        <a href="{{ path('client_contact') }}"><li class="navbar__navigation--list">Contact</li></a>
+        <a href="{{ asset('bundles/client/resume/resume.pdf') }}" target="_resume"><li class="navbar__navigation--list">Resumé</li></a>
+    </ul>
+</nav>
